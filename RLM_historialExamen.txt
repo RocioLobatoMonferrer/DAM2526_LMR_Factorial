@@ -1,0 +1,60 @@
+    1  history -w
+    2  history -w
+    3  ssh -T git@github.com
+    4  cd "C:\Users\rlobmon782\eclipse-workspace"
+    5  git clone git@github.com:RocioLobatoMonferrer/DAM2526_LMR_Factorial.git
+    6  git clone git@github.com:RocioLobatoMonferrer/DAM2526_LMR_Factorial.git
+    7* git clone git@github.com:RocioLobatoMonferrer/DAM2526_LMR_Factorial.g
+    8  git clone git@github.com:RocioLobatoMonferrer/DAM2526_LMR_Factorial.git
+    9  cd DAM2526_LMR_Factorial
+   10  echo "/bin/" > .gitignore
+   11  git add .
+   12  git commit -m "A: Versión Inicial que pide Número y lo Comprueba"
+   13  git push origin main
+   14  git add .
+   15  git commit -m "B: Versión con Objeto pedirNumero"
+   16  git push
+   17  git add .
+   18  git commit -m "C: Verisón con Nueva Línea para avisar de futuros cambios"
+   19  git switch -c factorial_recursivo
+   20  git add .
+   21  git commit -m "F1: Función Recursiva añadida"
+   22  git add .
+   23  git commit -m "F2: Nueva Línea donde se indica el resultado del Factorial"
+   24  git add .
+   25  git commit -m "F3: Mensaje donde se explica como funciona la función factorialRec"
+   26  git log --oneline --graph --all
+   27  git switch main
+   28  git add .
+   29  git commit -m "D: Mejora de la función pedirNumero con un bucle hasta que desde un número entero"
+   30  git add .
+   31  git commit -m "E: Nueva Función factorialBucle, hacerla más tarde"
+   32  git push
+   33  git add .
+   34  git commit -m "F: Nueva Línea donde se indica el resultado de factorialBucle"
+   35  git push origin main
+   36  git log --oneline --graph --all
+   37  git push --help
+   38  git fech
+   39  git fetch
+   40  git push origin main
+   41  git rebase main
+   42  git add .
+   43  git commit -m "G: Creadas de la versión A a la F"
+   44  git push
+   45  git log --oneline --graph --all
+   46  git branch --line
+   47  git branch --list
+   48  git log --oneline --graph --all
+   49  git rebase main
+   50  git switch origin/main
+   51  git switch factorial_recursivo
+   52  git add .
+   53  git commit -m "F4: Nueva Línea indicando que se ha completado el proceso del método recursivo"
+   54  git log --oneline --graph --all
+   55  git reset --soft 0356453
+   56  git status
+   57  git commit -m "Se ha eliminado el commit F4"
+   58  git log --oneline --graph --all
+   59  git switch main
+   60  history > RLM_historialExamen.txt
